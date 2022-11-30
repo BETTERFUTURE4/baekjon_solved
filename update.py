@@ -32,23 +32,23 @@ def main():
         
         directory = os.path.basename(os.path.dirname(root))
         
-#         if directory == '.':
-#             if len(files) == 1:
-#             content += "## [{}]({})첫번째\n".format(category, parse.quote(os.path.join(root, files[0])))
-#             directories.append(category)
-#             continue
+        if directory == '.':
+            if len(files) == 1:
+                content += "## [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
+                directories.append(category)
+            continue
             
         if directory not in directories:
             content += "### ✨ {}\n".format(directory)
+            content += "|                 문제번호              |                     링크                     |"
             directories.append(directory)
 
         for file in files:
-            content += "- 💯 [{}]({})\n".format(category, parse.quote(os.path.join(root, file)))
+            content += "- 💯 |{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
         content += "\n"
 
     with open("README.md", "w") as fd:
         fd.write(content)
-
-
+        
 if __name__ == "__main__":
     main()
