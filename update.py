@@ -34,16 +34,16 @@ def main():
         
         if directory == '.':
             if len(files) == 1:
-                content += "### [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
+                content += "## [{}]({})첫번째\n".format(category, parse.quote(os.path.join(root, files[0])))
                 directories.append(category)
             continue
             
         if directory not in directories:
-            content += "### {}\n".format(directory)
+            content += "## {}두번째\n".format(directory)
             directories.append(directory)
 
         for file in files:
-            content += "- [{}]({})\n".format(category, parse.quote(os.path.join(root, file)))
+            content += "- [{}]({})세번째\n".format(category, parse.quote(os.path.join(root, file)))
         content += "\n"
 
     with open("README.md", "w") as fd:
