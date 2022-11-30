@@ -41,6 +41,7 @@ def main():
         if directory not in directories:
             content += "### ✨ {}\n".format(directory)
             content += "|                 문제번호              |                     링크                     |\n"
+            content += "| ----- | ----- |"
             directories.append(directory)
 
         for file in files:
