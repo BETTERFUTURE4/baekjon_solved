@@ -14,6 +14,7 @@ def main():
     content += HEADER
     
     directories = [];
+    solveds = [];
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
@@ -34,7 +35,10 @@ def main():
         
         if directory == '.':
             if len(files) == 1:
-                content += "## [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
+                solved = "## [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
+                if solved not in solveds:
+                    content += solved
+                    solveds.add(solved)
                 directories.append(category)
             continue
             
