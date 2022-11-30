@@ -34,9 +34,11 @@ def main():
         
         if directory == '.':
             continue
+            
         if directory in ["백준", "프로그래머스"]:
             content += "## 📚 {}\n".format(directory)
             directories.append(directory)
+            continue
             
         if directory not in directories:
             content += "### 🚀 {}\n".format(directory)
