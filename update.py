@@ -35,15 +35,13 @@ def main():
         if directory == '.':
             continue
             
-        if directory in ["백준", "프로그래머스"]:
-            content += "## 📚 {}\n".format(directory)
-            directories.append(directory)
-            continue
-            
         if directory not in directories:
-            content += "### 🚀 {}\n".format(directory)
-            content += "| 문제번호 | 링크 |\n"
-            content += "| ----- | ----- |\n"
+            if directory in ["백준", "프로그래머스"]:
+                content += "## 📚 {}\n".format(directory)
+            else:
+                content += "### 🚀 {}\n".format(directory)
+                content += "| 문제번호 | 링크 |\n"
+                content += "| ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
