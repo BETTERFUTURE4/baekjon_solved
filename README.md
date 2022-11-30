@@ -4,10 +4,10 @@
 ---
 ### ✨ 백준
 |                 문제번호              |                     링크                     |
-
+| ----- | ----- |
 ### ✨ Bronze
 |                 문제번호              |                     링크                     |
-|1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.py)|
+| ----- | ----- ||1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.py)|
 |1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)|
 
 |1001. A－B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/A%EF%BC%8DB.py)|
@@ -208,7 +208,7 @@
 
 ### ✨ Gold
 |                 문제번호              |                     링크                     |
-|1011. Fly me to the Alpha Centauri|[링크](./%EB%B0%B1%EC%A4%80/Gold/1011.%E2%80%85Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri/Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri.py)|
+| ----- | ----- ||1011. Fly me to the Alpha Centauri|[링크](./%EB%B0%B1%EC%A4%80/Gold/1011.%E2%80%85Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri/Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri.py)|
 |1011. Fly me to the Alpha Centauri|[링크](./%EB%B0%B1%EC%A4%80/Gold/1011.%E2%80%85Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri/README.md)|
 
 |2447. 별 찍기 － 10|[링크](./%EB%B0%B1%EC%A4%80/Gold/2447.%E2%80%85%EB%B3%84%E2%80%85%EC%B0%8D%EA%B8%B0%E2%80%85%EF%BC%8D%E2%80%8510/%EB%B3%84%E2%80%85%EC%B0%8D%EA%B8%B0%E2%80%85%EF%BC%8D%E2%80%8510.py)|
@@ -217,7 +217,7 @@
 
 ### ✨ Silver
 |                 문제번호              |                     링크                     |
-|1002. 터렛|[링크](./%EB%B0%B1%EC%A4%80/Silver/1002.%E2%80%85%ED%84%B0%EB%A0%9B/%ED%84%B0%EB%A0%9B.py)|
+| ----- | ----- ||1002. 터렛|[링크](./%EB%B0%B1%EC%A4%80/Silver/1002.%E2%80%85%ED%84%B0%EB%A0%9B/%ED%84%B0%EB%A0%9B.py)|
 |1002. 터렛|[링크](./%EB%B0%B1%EC%A4%80/Silver/1002.%E2%80%85%ED%84%B0%EB%A0%9B/README.md)|
 
 |1012. 유기농 배추|[링크](./%EB%B0%B1%EC%A4%80/Silver/1012.%E2%80%85%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94/%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94.py)|
@@ -327,10 +327,10 @@
 
 ### ✨ 프로그래머스
 |                 문제번호              |                     링크                     |
-
+| ----- | ----- |
 ### ✨ lv1
 |                 문제번호              |                     링크                     |
-|67256. ［카카오 인턴］ 키패드 누르기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1/67256.%E2%80%85%EF%BC%BB%EC%B9%B4%EC%B9%B4%EC%98%A4%E2%80%85%EC%9D%B8%ED%84%B4%EF%BC%BD%E2%80%85%ED%82%A4%ED%8C%A8%EB%93%9C%E2%80%85%EB%88%84%EB%A5%B4%EA%B8%B0/%EF%BC%BB%EC%B9%B4%EC%B9%B4%EC%98%A4%E2%80%85%EC%9D%B8%ED%84%B4%EF%BC%BD%E2%80%85%ED%82%A4%ED%8C%A8%EB%93%9C%E2%80%85%EB%88%84%EB%A5%B4%EA%B8%B0.py)|
+| ----- | ----- ||67256. ［카카오 인턴］ 키패드 누르기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1/67256.%E2%80%85%EF%BC%BB%EC%B9%B4%EC%B9%B4%EC%98%A4%E2%80%85%EC%9D%B8%ED%84%B4%EF%BC%BD%E2%80%85%ED%82%A4%ED%8C%A8%EB%93%9C%E2%80%85%EB%88%84%EB%A5%B4%EA%B8%B0/%EF%BC%BB%EC%B9%B4%EC%B9%B4%EC%98%A4%E2%80%85%EC%9D%B8%ED%84%B4%EF%BC%BD%E2%80%85%ED%82%A4%ED%8C%A8%EB%93%9C%E2%80%85%EB%88%84%EB%A5%B4%EA%B8%B0.py)|
 |67256. ［카카오 인턴］ 키패드 누르기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1/67256.%E2%80%85%EF%BC%BB%EC%B9%B4%EC%B9%B4%EC%98%A4%E2%80%85%EC%9D%B8%ED%84%B4%EF%BC%BD%E2%80%85%ED%82%A4%ED%8C%A8%EB%93%9C%E2%80%85%EB%88%84%EB%A5%B4%EA%B8%B0/README.md)|
 
 |92334. 신고 결과 받기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv1/92334.%E2%80%85%EC%8B%A0%EA%B3%A0%E2%80%85%EA%B2%B0%EA%B3%BC%E2%80%85%EB%B0%9B%EA%B8%B0/%EC%8B%A0%EA%B3%A0%E2%80%85%EA%B2%B0%EA%B3%BC%E2%80%85%EB%B0%9B%EA%B8%B0.py)|
@@ -339,7 +339,7 @@
 
 ### ✨ lv2
 |                 문제번호              |                     링크                     |
-|42583. 다리를 지나는 트럭|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/42583.%E2%80%85%EB%8B%A4%EB%A6%AC%EB%A5%BC%E2%80%85%EC%A7%80%EB%82%98%EB%8A%94%E2%80%85%ED%8A%B8%EB%9F%AD/README.md)|
+| ----- | ----- ||42583. 다리를 지나는 트럭|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/42583.%E2%80%85%EB%8B%A4%EB%A6%AC%EB%A5%BC%E2%80%85%EC%A7%80%EB%82%98%EB%8A%94%E2%80%85%ED%8A%B8%EB%9F%AD/README.md)|
 |42583. 다리를 지나는 트럭|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/42583.%E2%80%85%EB%8B%A4%EB%A6%AC%EB%A5%BC%E2%80%85%EC%A7%80%EB%82%98%EB%8A%94%E2%80%85%ED%8A%B8%EB%9F%AD/%EB%8B%A4%EB%A6%AC%EB%A5%BC%E2%80%85%EC%A7%80%EB%82%98%EB%8A%94%E2%80%85%ED%8A%B8%EB%9F%AD.py)|
 
 |60057. 문자열 압축|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv2/60057.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EC%95%95%EC%B6%95/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EC%95%95%EC%B6%95.py)|
@@ -354,6 +354,6 @@
 
 ### ✨ lv3
 |                 문제번호              |                     링크                     |
-|42579. 베스트앨범|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/42579.%E2%80%85%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94.py)|
+| ----- | ----- ||42579. 베스트앨범|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/42579.%E2%80%85%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94.py)|
 |42579. 베스트앨범|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/lv3/42579.%E2%80%85%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94/README.md)|
 
