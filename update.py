@@ -4,7 +4,7 @@ import os
 from urllib import parse
 
 HEADER="""# 
-# Baekjoon_solved
+# 백준 문제 풀이 목록
 
 ---
 """
