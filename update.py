@@ -44,9 +44,8 @@ def main():
             content += "| ----- | ----- |\n"
             directories.append(directory)
 
-        for file in files:
+        for file in set(files):
             content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
-        content += "\n"
 
     with open("README.md", "w") as fd:
         fd.write(content)
