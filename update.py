@@ -42,10 +42,10 @@ def main():
             directories.append(directory)
 
         for file in files:
-            solved = "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
-            if solved not in solveds:
-                content += solved
-                solveds.append(solved)
+            if category not in solveds:
+                content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
+                solveds.append(category)
+                print("category : " + category)
 
     with open("README.md", "w") as fd:
         fd.write(content)
