@@ -34,7 +34,7 @@ def main():
         
         if directory == '.':
             if len(files) == 1:
-                content += "### [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
+                content += "## [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
                 directories.append(category)
             continue
             
