@@ -4,7 +4,7 @@ import os
 from urllib import parse
 
 HEADER="""# 
-# baekoom_solved
+# Baekjoon_solved
 
 ---
 """
