@@ -44,7 +44,7 @@ def main():
             directories.append(directory)
 
         for file in files:
-            content += "- 💯 |{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
+            content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
         content += "\n"
 
     with open("README.md", "w") as fd:
