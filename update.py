@@ -4,9 +4,8 @@ import os
 from urllib import parse
 
 HEADER="""# 
-# 백준 문제 풀이 목록
+# 백준 & 프로그래머스 문제 풀이 목록
 
----
 """
 
 def main():
@@ -34,22 +33,19 @@ def main():
         directory = os.path.basename(os.path.dirname(root))
         
         if directory == '.':
-            if len(files) == 1:
-                solved = "## [{}]({})\n".format(category, parse.quote(os.path.join(root, files[0])))
-                if solved not in solveds:
-                    content += solved
-                    solveds.add(solved)
-                directories.append(category)
             continue
             
         if directory not in directories:
             content += "### ✨ {}\n".format(directory)
-            content += "|                 문제번호              |                     링크                     |\n"
+            content += "| 문제번호 | 링크 |\n"
             content += "| ----- | ----- |\n"
             directories.append(directory)
 
-        for file in set(files):
-            content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
+        for file in files:
+            solved = "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
+            if solved not in solveds:
+                content += solved
+                solveds.append(solved)
 
     with open("README.md", "w") as fd:
         fd.write(content)
