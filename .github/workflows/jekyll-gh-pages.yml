@@ -24,6 +24,11 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.7]
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,6 +41,21 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Update README.md
+        run: |
+          python update.py
+      - name: Push the change
+        run: |
+            git config --global user.name 'jiwooPark'
+            git config --global user.email 'rerub0831@gmail.com'
+            git commit -am "Automated update of README.md" || true
+            git push
+        
 
   # Deployment job
   deploy:
